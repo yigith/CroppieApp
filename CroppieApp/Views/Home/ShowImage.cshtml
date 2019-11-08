@@ -1,0 +1,22 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>ShowImage</title>
+</head>
+<body>
+    <div> 
+        <h1>Image:</h1>
+        <img src="~/Upload/@ViewBag.fileName" />
+    </div>
+    <div>
+        @Html.ActionLink("Crop New Image", "Index")
+    </div>
+</body>
+</html>
